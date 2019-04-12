@@ -12,7 +12,7 @@ To store data in a database we need <strong>MySQL database </strong>, so now we 
 
 ### We need to download mysql image in our system
 <ol>
-<li> <strong>Pull MySql image </strong> from docker hub. Following command will pull the latest mysql image.</br>
+<li> <strong>Pull MySql image </strong> from docker hub. The following command will pull the latest mysql image.</br>
  <strong>$ docker pull mysql:latest </strong></li> </br>
  
  ![docker_pull](https://user-images.githubusercontent.com/47202519/56024620-00836280-5d2e-11e9-9576-09536c5ce12d.png)
@@ -23,7 +23,7 @@ To store data in a database we need <strong>MySQL database </strong>, so now we 
  ![docker_status](https://user-images.githubusercontent.com/47202519/56024691-2f99d400-5d2e-11e9-8baa-35dfdcf7d9ac.png)
 
 
-<li>Run a container from this image.  <strong>‘-name’ </strong> gives a name to the container.  <strong>‘ -e’ </strong> specifies run time variables you need to set. Set the password for the MySQL root user using  <strong>‘MYSQL_ROOT_PASSWORD’= "password" </strong>.  <strong>‘-d’ </strong> tells the docker to run the container in background.</br>
+<li>Run a container from this image.  <strong>‘-name’ </strong> gives a name to the container.  <strong>‘ -e’ </strong> specifies run-time variables you need to set. Set the password for the MySQL root user using  <strong>‘MYSQL_ROOT_PASSWORD’= "password" </strong>.  <strong>‘-d’ </strong> tells the docker to run the container in background.</br>
 <strong>$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=Server@123 -d mysql:5.7</strong></li> </br> 
 
 ![docker_run](https://user-images.githubusercontent.com/47202519/56024822-7091e880-5d2e-11e9-9a9f-78be02346a62.png)
