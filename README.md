@@ -26,7 +26,7 @@ To store data in a database we need <strong>MySQL database </strong>, so now we 
 
 <li>Then check the status of the container</br>
 Now you should be able to see that MySQL is running on port <strong>3306</strong>.</br>
-<strong>$ docker ps -a<strong></li>  
+<strong>$ docker ps -a</strong></li>  
 </ol>
 
 
