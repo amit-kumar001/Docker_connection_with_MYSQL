@@ -31,7 +31,9 @@ To store data in a database we need <strong>MySQL database </strong>, so now we 
 
 <li>Then check the status of the container</br>
 Now you should be able to see that MySQL is running on port <strong>3306</strong>.</br>
-<strong>$ docker ps -a</strong></li>  
+List all container instances, with their ID and status with name of container.</br>
+<strong>$ docker ps -a</strong></br>
+Docker  run a container based on that image. To see the list of images that are available locally, use the docker images command.</li>  
 </ol>
 
 
