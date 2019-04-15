@@ -65,11 +65,7 @@ Now you should be able to see that MySQL is running on port <strong>3306</strong
 ### Accessing MySQL through a Web Interface.
 <ol/>
 <strong>phpMyAdmin</strong> gives us a web interface to access <strong>MySQL database</strong> and we are going to use that to access and administer MySQL database that we have set up earlier.</br>
-## Requirements :-
-<ol>
-<li>Operating system (ubuntu)</li>
-<li>Docker commands</li>
-</ol>
+
 <li>Pull phpMyAdmin image from docker hub</br>
 <strong>$ docker pull phpmyadmin/phpmyadmin</strong></li> </br> 
 
