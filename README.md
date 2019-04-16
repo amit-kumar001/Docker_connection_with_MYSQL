@@ -2,7 +2,10 @@
 ## Docker connection with database (mysql & phpmyadmin)
 <ol>
 To store data in a database we need <strong>MySQL database </strong>, so now we gonna start study about  <strong>MySQL database </strong> with docker. For visualization we will use  <strong>PHPMyAdmin </strong></br>
- <strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</li>
+<strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</li>
+<li>Difference between PHPMyAdmin and MySQL</br>
+<li>MySQL is the database management system, or a database server.</li>
+<li>phpMyAdmin is the web application written primarily in PHP. It’s used for managing MySQL database.</li></li>
  
 ## Requirements :-
 <ol>
@@ -46,8 +49,9 @@ Docker  run a container based on that image. To see the list of images that are 
 <li>Now ROOT@CONTAINER_ID  need a path to make a access in mysql </br>
 <strong>root@0738822bc24f:/# mysql -u root -p</strong></li>  </br>
 
-![exec](https://user-images.githubusercontent.com/47202519/56024992-e1d19b80-5d2e-11e9-8e3b-b9922999728f.png)
+![exec](https://user-images.githubusercontent.com/47202519/56024992-e1d19b80-5d2e-11e9-8e3b-b9922999728f.png)</br></br>
 
+Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Bash is a command processor that typically runs in a text window.</br>
 <li>Create database</li>
 <ol>
 <li><strong>mysql> show databases;</strong></li>  </br>
