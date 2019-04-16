@@ -2,10 +2,11 @@
 ## Docker connection with database (mysql & phpmyadmin)
 <ol>
 To store data in a database we need <strong>MySQL database </strong>, so now we gonna start study about  <strong>MySQL database </strong> with docker. For visualization we will use  <strong>PHPMyAdmin </strong></br>
-<strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</li>
-<li>Difference between PHPMyAdmin and MySQL</br>
+<strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</br>
+Difference between PHPMyAdmin and MySQL</br>
+<ol>
 <li>MySQL is the database management system, or a database server.</li>
-<li>phpMyAdmin is the web application written primarily in PHP. It’s used for managing MySQL database.</li></li>
+<li>phpMyAdmin is the web application written primarily in PHP. It’s used for managing MySQL database.</li></ol>
  
 ## Requirements :-
 <ol>
