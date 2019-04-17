@@ -1,5 +1,7 @@
 # Docker_connection_with_MYSQL
-## Docker connection with database (mysql & phpmyadmin)
+## Docker connection with database (mysql & phpmyadmin)  
+![database](https://user-images.githubusercontent.com/47202519/56291212-7b8bb500-6142-11e9-8bb0-23ad6b628e95.jpg)
+
 <ol>
 To store data in a database we need <strong>MySQL database </strong>, so now we gonna start study about  <strong>MySQL database </strong> with docker. For visualization we will use  <strong>PHPMyAdmin </strong></br>
 <strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</br></br>
