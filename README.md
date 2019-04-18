@@ -5,10 +5,10 @@
 <ol>
 To store data in a database we need <strong>MySQL database </strong>, so now we gonna start study about  <strong>MySQL database </strong> with docker. For visualization we will use  <strong>PHPMyAdmin </strong></br>
 <strong>MySQL </strong> is a widely used, open-source relational database management system (RDBMS).</br></br>
-Difference between PHPMyAdmin and MySQL</br>
+Difference between <strong>PHPMyAdmin</strong> and <strong>MySQL</strong></br>
 <ol>
-<li>MySQL is the database management system, or a database server.</li>
-<li>phpMyAdmin is the web application written primarily in PHP. It’s used for managing MySQL database.</li></ol>
+<li><strong>MySQL</strong> is the database management system, or a database server.</li>
+<li><strong>phpMyAdmin</strong> is the web application written primarily in PHP. It’s used for managing MySQL database.</li></ol>
  
 ## Requirements :-
 <ol>
@@ -30,7 +30,7 @@ To download a particular image, or set of images, use docker pull. If no tag is 
  ![docker_status](https://user-images.githubusercontent.com/47202519/56024691-2f99d400-5d2e-11e9-8baa-35dfdcf7d9ac.png)
 
 
- <li>Run a container from this image.  <strong>‘-name’ </strong> gives a name to the container.  <strong>‘ -e’ </strong> specifies run-time variables you need to set. Set the password for the MySQL root user using  <strong>‘MYSQL_ROOT_PASSWORD’= "password" </strong>.  <strong>‘-d’ </strong> tells the docker to run the container in background. <strong>'mysql:5.7'</strong> mysql is the name of the image and 5.7 is the tag specifying the MySQL version.</br>
+ <li>Run a container from this image.  <strong>‘-name’ </strong> gives a name to the container.  <strong>‘ -e’ </strong> specifies run-time variables you need to set. Set the password for the MySQL root user using  <strong>‘MYSQL_ROOT_PASSWORD’= "password" </strong>.  <strong>‘-d’ </strong> tells the docker to run the container in background. <strong>'mysql:5.7'</strong> tells mysql is the name of the image and 5.7 is the tag specifying the MySQL version.</br>
 <strong>$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=Server@123 -d mysql:5.7</strong></li> </br> 
 
 ![docker_run](https://user-images.githubusercontent.com/47202519/56024822-7091e880-5d2e-11e9-9a9f-78be02346a62.png)
